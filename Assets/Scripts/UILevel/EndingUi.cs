@@ -3,23 +3,26 @@ using UnityEngine.SceneManagement;
 
 public class GameOverUI : MonoBehaviour
 {
-    public GameObject panel;
-
-    private void Awake()
-    {
-        panel.SetActive(false);
-    }
-
+    public GameObject losePanel;
+    public GameObject winPanel;
     public void ShowGameOver()
     {
-        panel.SetActive(true);
+        losePanel.SetActive(true);
 
         Time.timeScale = 0f;
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+    public void ShowWinScreen()
+    {
+        winPanel.SetActive(true);
 
+        Time.timeScale = 0f;
+
+        Cursor.lockState= CursorLockMode.None;
+        Cursor.visible = true;
+    }
     public void RestartLevel()
     {
         Time.timeScale = 1f;
