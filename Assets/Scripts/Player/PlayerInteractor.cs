@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class PlayerInteractor : MonoBehaviour
 {
     public float interactDistance = 3f;
     public Transform holdPoint;
-    GameObject heldItem;
-
+    List<GameObject> heldItems = new List<GameObject>();
     PlayerControls controls;
 
     void Awake()
@@ -29,18 +29,19 @@ public class PlayerInteractor : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit hit, interactDistance))
         {
             PickupItem item = hit.collider.GetComponent<PickupItem>();
-            if (item && heldItem == null)
+            if (item)
             {
-                heldItem = item.gameObject;
-                heldItem.SetActive(false);
+                heldItems.Add(item.gameObject);
+                item.gameObject.SetActive(false);
                 return;
             }
 
             DepositPoint point = hit.collider.GetComponent<DepositPoint>();
-            if (point && heldItem != null)
-            {
-                point.ReceiveItem(heldItem);
-                heldItem = null;
+            if (point && heldItems.Count > 0)
+            { 
+                GameObject itemToDrop = heldItems[0];
+                heldItems.RemoveAt(0);
+                point.ReceiveItem(itemToDrop);
             }
         }
     }
