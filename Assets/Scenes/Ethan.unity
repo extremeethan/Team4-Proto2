@@ -168370,7 +168370,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1070335039294589987, guid: 2c3fba7ce29ac9049a3d94815577a148, type: 3}
       propertyPath: sensitivity
-      value: 50
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 5069046507703919307, guid: 2c3fba7ce29ac9049a3d94815577a148, type: 3}
       propertyPath: m_LocalPosition.x
@@ -321695,6 +321695,6 @@ SceneRoots:
   - {fileID: 1707594375}
   - {fileID: 552126572}
   - {fileID: 471631321}
-  - {fileID: 1156870862}
   - {fileID: 408988437}
   - {fileID: 2001427190}
+  - {fileID: 1156870862}
