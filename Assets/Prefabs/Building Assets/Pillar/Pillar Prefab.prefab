@@ -50,12 +50,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c09b63683ac7974b9fda9a1957f254f, type: 3}
       propertyPath: m_Name
-      value: Pillar (3)
+      value: Pillar Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 7821625320815587429, guid: 1c09b63683ac7974b9fda9a1957f254f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 3487b320e8f90f149b77a03d5134ee62, type: 2}
+      objectReference: {fileID: 2100000, guid: d8b3ff349ceda674880696f07903c9d7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
