@@ -4184,22 +4184,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1385348908}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.90872884
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (1)
@@ -4255,6 +4239,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.90872884
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -6786,22 +6786,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1385348908}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.98854774
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (4)
@@ -6858,6 +6842,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98854774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3621572813208467801, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
@@ -6888,22 +6888,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 591631948}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9136476
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (3)
@@ -6959,6 +6943,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9136476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -13090,22 +13090,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 625157297}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.98854774
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase
@@ -13161,6 +13145,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98854774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -15318,22 +15318,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 591631948}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8946943
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (4)
@@ -15389,6 +15373,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180.088
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8946943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -18161,22 +18161,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 591631948}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.98854774
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (5)
@@ -18232,6 +18216,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98854774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -35047,22 +35047,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 625157297}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8946943
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (2)
@@ -35118,6 +35102,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180.897
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8946943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -43604,22 +43604,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 625157297}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.90872884
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (1)
@@ -43675,6 +43659,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.90872884
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -45960,22 +45960,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 591631948}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8946943
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase
@@ -46031,6 +46015,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180.897
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8946943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -47789,22 +47789,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 625157297}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8946943
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (3)
@@ -47860,6 +47844,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180.088
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8946943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -53592,22 +53592,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 625157297}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9136476
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (5)
@@ -53663,6 +53647,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9136476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -61768,22 +61768,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 625157297}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.98854774
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (4)
@@ -61839,6 +61823,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98854774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -63077,22 +63077,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 591631948}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.90872884
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (1)
@@ -63148,6 +63132,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.90872884
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -68424,22 +68424,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1385348908}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9136476
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (5)
@@ -68495,6 +68479,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9136476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -80598,22 +80598,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 591631948}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.98854774
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (2)
@@ -80669,6 +80653,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98854774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -82403,22 +82403,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1385348908}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8946943
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (3)
@@ -82474,6 +82458,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180.088
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8946943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -86341,22 +86341,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1385348908}
     m_Modifications:
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.98854774
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.015
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1301826987778232191, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_Name
       value: Empty bookcase (2)
@@ -86412,6 +86396,22 @@ PrefabInstance:
     - target: {fileID: 1827005780800935365, guid: f281dbba850175c46a31938d72aee6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98854774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382944151748885089, guid: f14b5466e583ca847992dff8d7b349e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
