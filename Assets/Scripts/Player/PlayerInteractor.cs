@@ -6,8 +6,10 @@ public class PlayerInteractor : MonoBehaviour
 {
     public float interactDistance = 3f;
     public Transform holdPoint;
+    public AngelEnemy[] angels;
     List<GameObject> heldItems = new List<GameObject>();
     PlayerControls controls;
+    int booksCollected = 0;
 
     void Awake()
     {
@@ -33,6 +35,10 @@ public class PlayerInteractor : MonoBehaviour
             {
                 heldItems.Add(item.gameObject);
                 item.gameObject.SetActive(false);
+
+                booksCollected++;
+                WakeNextAngel();
+
                 return;
             }
 
@@ -43,6 +49,17 @@ public class PlayerInteractor : MonoBehaviour
                 heldItems.RemoveAt(0);
                 point.ReceiveItem(itemToDrop);
             }
+        }
+    }
+    void WakeNextAngel()
+    {
+        if (booksCollected == 1 && angels.Length > 1)
+        {
+            angels[1].isAwake = true;
+        }
+        else if (booksCollected == 2 && angels.Length > 2)
+        {
+            angels[2].isAwake = true;
         }
     }
 }

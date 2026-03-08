@@ -1,11 +1,14 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
 
     bool isPaused = false;
     PlayerControls controls;
+    public GameObject firstButton;
 
     private void Awake()
     {
@@ -29,6 +32,10 @@ public class PauseMenu : MonoBehaviour
         else
             Pause();
     }
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
     public void Pause()
     {
         pauseMenu.SetActive(true);
@@ -37,13 +44,16 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         isPaused = true;
+        EventSystem.current.SetSelectedGameObject(firstButton);
     }
     public void Resume()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         isPaused = false;
     }
     public void EndScene()

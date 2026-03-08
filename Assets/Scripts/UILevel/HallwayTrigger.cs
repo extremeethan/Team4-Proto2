@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class HallwayTrigger : MonoBehaviour
 {
+    public AngelEnemy firstEnemy;
+
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player"))
             return;
 
-        AngelEnemy[] enemies = FindObjectsByType<AngelEnemy>(FindObjectsSortMode.None);
-
-        foreach (AngelEnemy enemy in enemies)
+        if (firstEnemy != null)
         {
-            enemy.isAwake = true;
+            firstEnemy.isAwake = true;
         }
 
         gameObject.SetActive(false);
