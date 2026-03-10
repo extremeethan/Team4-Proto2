@@ -5,11 +5,10 @@ public class DepositPoint : MonoBehaviour
     public Transform spawnPoint;
     public int booksNeeded = 3;
     public Slider bookshelfSlider;
-
     public GameObject crown;
 
-    int booksDeposited = 0;
-    bool opened = false;
+    static int booksDeposited = 0;   // shared across all deposit points
+    static bool opened = false;
 
     public void ReceiveItem(GameObject item)
     {
@@ -25,6 +24,6 @@ public class DepositPoint : MonoBehaviour
             crown.SetActive(true);
         }
 
-        Destroy(item); // book disappears after depositing
+        Destroy(item);
     }
 }

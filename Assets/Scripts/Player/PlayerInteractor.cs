@@ -49,6 +49,12 @@ public class PlayerInteractor : MonoBehaviour
 
         if (Physics.Raycast(ray, out RaycastHit hit, interactDistance))
         {
+            CrownPickup crown = hit.collider.GetComponent<CrownPickup>();
+            if (crown)
+            {
+                hit.collider.gameObject.SetActive(false);
+                return;
+            }
             PickupItem item = hit.collider.GetComponent<PickupItem>();
 
             if (item)
