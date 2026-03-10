@@ -7,12 +7,18 @@ public class DepositPoint : MonoBehaviour
     public Slider bookshelfSlider;
     public GameObject crown;
 
-    static int booksDeposited = 0;   // shared across all deposit points
+    static int booksDeposited = 0;
     static bool opened = false;
 
     public void ReceiveItem(GameObject item)
     {
         item.transform.position = spawnPoint.position;
+        item.transform.rotation = spawnPoint.rotation;
+
+        item.SetActive(true); // make sure the book stays visible
+
+        PickupItem pickup = item.GetComponent<PickupItem>();
+        if (pickup) pickup.enabled = false;
 
         booksDeposited++;
 
@@ -23,7 +29,5 @@ public class DepositPoint : MonoBehaviour
             bookshelfSlider.Open();
             crown.SetActive(true);
         }
-
-        Destroy(item);
     }
 }

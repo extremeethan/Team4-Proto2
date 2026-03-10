@@ -57,7 +57,7 @@ public class PlayerInteractor : MonoBehaviour
             }
             PickupItem item = hit.collider.GetComponent<PickupItem>();
 
-            if (item)
+            if (item && item.enabled && item.gameObject.activeInHierarchy)
             {
                 if (pickupSound != null)
                 {
