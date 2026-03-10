@@ -102053,7 +102053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 774784909942458768, guid: 25421c25142903647b4b3ceca312a3c3, type: 3}
       propertyPath: m_Text
-      value: retart?
+      value: restart?
       objectReference: {fileID: 0}
     - target: {fileID: 4557030883201888897, guid: 25421c25142903647b4b3ceca312a3c3, type: 3}
       propertyPath: m_Pivot.x
@@ -102141,7 +102141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6365397603348637798, guid: 25421c25142903647b4b3ceca312a3c3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7549386106030629855, guid: 25421c25142903647b4b3ceca312a3c3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
