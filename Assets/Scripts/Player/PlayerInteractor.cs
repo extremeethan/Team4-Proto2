@@ -10,6 +10,7 @@ public class PlayerInteractor : MonoBehaviour
     public AngelEnemy[] angels;
 
     public AudioClip pickupSound;
+    public AudioClip dropSound;
     public AudioClip angelWakeSound;
 
     [Range(0f, 1f)] public float volume = 1f;
@@ -78,6 +79,11 @@ public class PlayerInteractor : MonoBehaviour
 
             if (point && heldItems.Count > 0)
             {
+                if (dropSound != null)
+                {
+                    AudioSource.PlayClipAtPoint(dropSound, point.transform.position, volume);
+                }
+
                 GameObject itemToDrop = heldItems[0];
                 heldItems.RemoveAt(0);
                 point.ReceiveItem(itemToDrop);
