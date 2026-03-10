@@ -6,15 +6,12 @@ public class Slider : MonoBehaviour
     public Transform openPos;
     public float openDuration = 2f;
 
+    public AudioClip slideSound;
+    [Range(0f, 1f)] public float volume = 1f;
+
     float t = 0f;
     bool opening = false;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (!opening) return;
@@ -33,5 +30,10 @@ public class Slider : MonoBehaviour
     public void Open()
     {
         opening = true;
+
+        if (slideSound != null)
+        {
+            AudioSource.PlayClipAtPoint(slideSound, transform.position, volume);
+        }
     }
 }

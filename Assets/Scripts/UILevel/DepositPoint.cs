@@ -6,7 +6,7 @@ public class DepositPoint : MonoBehaviour
     public int booksNeeded = 3;
     public Slider bookshelfSlider;
 
-    public GameObject crown;                // the crown object to enable
+    public GameObject crown;
 
     int booksDeposited = 0;
     bool opened = false;
@@ -14,7 +14,6 @@ public class DepositPoint : MonoBehaviour
     public void ReceiveItem(GameObject item)
     {
         item.transform.position = spawnPoint.position;
-        item.SetActive(true);
 
         booksDeposited++;
 
@@ -22,8 +21,10 @@ public class DepositPoint : MonoBehaviour
         {
             opened = true;
 
-            bookshelfSlider.Open();        // move the shelf
-            crown.SetActive(true);         // make the crown exist
+            bookshelfSlider.Open();
+            crown.SetActive(true);
         }
+
+        Destroy(item); // book disappears after depositing
     }
 }
