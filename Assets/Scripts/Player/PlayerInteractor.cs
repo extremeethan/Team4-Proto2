@@ -7,6 +7,8 @@ public class PlayerInteractor : MonoBehaviour
     public float interactDistance = 3f;
     public Transform holdPoint;
     public AngelEnemy[] angels;
+    public AudioClip pickupSound; // 1. Add reference for the sound clip
+    [Range(0f, 1f)] public float volume = 1f;
     List<GameObject> heldItems = new List<GameObject>();
     PlayerControls controls;
     int booksCollected = 0;
@@ -33,6 +35,11 @@ public class PlayerInteractor : MonoBehaviour
             PickupItem item = hit.collider.GetComponent<PickupItem>();
             if (item)
             {
+                // 2. Play the sound at the item's location
+                if (pickupSound != null)
+                {
+                    AudioSource.PlayClipAtPoint(pickupSound, hit.point, volume);
+                }
                 heldItems.Add(item.gameObject);
                 item.gameObject.SetActive(false);
 
