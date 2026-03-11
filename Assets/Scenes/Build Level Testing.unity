@@ -12720,6 +12720,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 54231020}
     - target: {fileID: 3295473153851873138, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: moveSpeed
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3295473153851873138, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: movesWhenSeen
       value: 0
       objectReference: {fileID: 0}
@@ -12782,6 +12786,22 @@ PrefabInstance:
     - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: m_BaseOffset
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: m_AutoBraking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: m_Acceleration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 720
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23841,6 +23861,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1889287921}
     - target: {fileID: 3295473153851873138, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: moveSpeed
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3295473153851873138, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: movesWhenSeen
       value: 1
       objectReference: {fileID: 0}
@@ -23902,7 +23926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: m_Speed
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: m_Height
@@ -23911,6 +23935,10 @@ PrefabInstance:
     - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: m_BaseOffset
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: m_Acceleration
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40122,8 +40150,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0288799, y: 1.3523294, z: 2.0653543}
-  m_Center: {x: -0.25665876, y: 0.022218373, z: 0.53267646}
+  m_Size: {x: 1.0288799, y: 1.3523294, z: 2.2670312}
+  m_Center: {x: -0.25665876, y: 0.022218406, z: 0.6335141}
 --- !u!1 &653472895 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8636237813609810535, guid: 7624e096435fa1e459016da3d592481c, type: 3}
@@ -79894,6 +79922,10 @@ PrefabInstance:
       propertyPath: 'angels.Array.data[3]'
       value: 
       objectReference: {fileID: 1996466848}
+    - target: {fileID: 1726382602847150069, guid: 3c14814d7c11b68438b78bf9d86f356d, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2881289935578001306, guid: 3c14814d7c11b68438b78bf9d86f356d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -83948,6 +83980,10 @@ PrefabInstance:
       propertyPath: losePanel
       value: 
       objectReference: {fileID: 54231020}
+    - target: {fileID: 3295473153851873138, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: moveSpeed
+      value: 5.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3295473153851873138, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: movesWhenSeen
       value: 0
@@ -126207,6 +126243,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1889287921}
     - target: {fileID: 3295473153851873138, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
+      propertyPath: moveSpeed
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3295473153851873138, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: movesWhenSeen
       value: 1
       objectReference: {fileID: 0}
@@ -126268,7 +126308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: m_Speed
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8974936030302012936, guid: 830cffde58a3571488010e8d91fe74c8, type: 3}
       propertyPath: m_Height
@@ -131935,8 +131975,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.138359, y: 0.88675284, z: 1.8325284}
-  m_Center: {x: 0.036903102, y: -0.14825764, z: 0.41626346}
+  m_Size: {x: 1.1383591, y: 0.88675284, z: 2.3734381}
+  m_Center: {x: 0.036903124, y: -0.14825764, z: 0.68671614}
 --- !u!114 &2097390017
 MonoBehaviour:
   m_ObjectHideFlags: 0
